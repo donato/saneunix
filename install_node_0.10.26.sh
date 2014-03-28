@@ -1,11 +1,13 @@
 #!/bin/env bash
-#install node 0.10.26 from source
 
 mkdir ~/local
 cd ~/local
+sudo -y apt-get update
+sudo -y apt-get install build-essential git-core
+
 git clone https://github.com/joyent/node.git
 cd node
-git checkout 0.10.26
+git checkout v0.10.26
 ./configure
 make
 sudo make install
