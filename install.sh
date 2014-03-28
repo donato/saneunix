@@ -4,18 +4,18 @@
 #echo "nameserver 8.8.8.8" > /etc/resolv.conf
 
 #Basic updating
-apt-get update
-apt-get upgrade
+apt-get -y update
+apt-get -y upgrade
 
 #ftp service
-apt-get install lftp
+apt-get -y install lftp
 
 #web stuff
-apt-get install apache2 php5 mysql
-service apache2 restart
+apt-get -y install apache2 php5 mysql
+service -y apache2 restart
 
 #development stuff
-apt-get install git ruby python nodejs vim
+apt-get -y install git ruby python nodejs vim
 
 
 # VIM plugins and settings
