@@ -2,6 +2,9 @@
 set -o vi
 export EDITOR=vim
 
+#Prompt colour scheme
+export PS1='[\[\033[31;1m\u\[\033[0m@\[\033[34;1m\h\[\033[0m \[\033[32m\w\[\033[0m]>> '
+
 # When using history commmand do not view duplicatesgg
 export HISTCONTROL=ignoredups
 
