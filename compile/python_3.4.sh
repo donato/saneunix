@@ -1,9 +1,11 @@
 #!/bin/env bash
 
-mkdir ~/local
+sudo apt-get -y update
+sudo apt-get -y install build-essential
+
+
+mkdir -p ~/local
 cd ~/local
-sudo -y apt-get update
-sudo -y apt-get install build-essential
 
 wget https://www.python.org/ftp/python/3.4.0/Python-3.4.0.tgz
 tar -xvf Python-3.4.0.tgz

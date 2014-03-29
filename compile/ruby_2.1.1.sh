@@ -1,9 +1,10 @@
 #!/bin/env bash
 
-mkdir ~/local
+sudo apt-get -y update
+sudo apt-get -y install build-essential
+
+mkdir -p ~/local
 cd ~/local
-sudo -y apt-get update
-sudo -y apt-get install build-essential
 
 wget http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.gz
 tar -xvf ruby-2.1.1.tar.gz
