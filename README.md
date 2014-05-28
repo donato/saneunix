@@ -7,3 +7,5 @@ Clone down the directory and then run
 
     sudo sh install.sh
 
+hello
+
