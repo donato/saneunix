@@ -9,3 +9,4 @@ Clone down the directory and then run
 
 hello
 
+goodbye
