@@ -1,0 +1,13 @@
+# Login using your password
+mysql -p
+
+# Load in a file
+mysql -p < localhost201306060812.sql
+
+# Create user
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON imperial_forums.* TO 'newuser'@'localhost';
+FLUSH PRIVILEGES;
+
+
+SHOW databases;
