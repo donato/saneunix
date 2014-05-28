@@ -12,6 +12,7 @@ apt-get -y upgrade
 
 #lockdown other ports
 
+    http://www.liquidweb.com/kb/changing-the-ssh-port/
 
 
 
